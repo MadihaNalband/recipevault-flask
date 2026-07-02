@@ -1,8 +1,10 @@
-Flask
-Flask-SQLAlchemy
-Flask-Migrate
-Flask-Login
-Flask-WeasyPrint
-Werkzeug
-gunicorn
-alembic
+# RecipeVault - Python Dependencies
+
+Flask==3.1.2
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.1.0
+Flask-Login==0.6.3
+SQLAlchemy==2.0.45
+alembic==1.18.1
+Werkzeug==3.1.5
+reportlab==4.4.9

@@ -122,7 +122,7 @@ https://youtu.be/IUqcwyCLf-E?si=YHyvPaepn3qsQUhh
 - Flask-Login
 - Flask-Migrate
 - Werkzeug
-- WeasyPrint
+- ReportLab
 - Alembic
 
 ---
