@@ -240,7 +240,7 @@ Some features planned for future versions include:
 
 **Madiha Nalband**
 
-Developed as part of the Harvard CS50x certificate course to demonstrate full-stack web application development using Flask.
+Developed as part of the Harvard's CS50x: Introduction to Computer Science certificate course to demonstrate full-stack web application development using Flask.
 
 ---
 
