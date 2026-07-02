@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ recipe.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 70%;
+            height: auto;
+            display: block;
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="title">{{ recipe.title }}</div>
+
+    <div class="section-title">Ingredients:</div>
+    <div class="content">{{ recipe.ingredients }}</div>
+
+    <div class="section-title">Instructions:</div>
+    <div class="content">{{ recipe.instructions }}</div>
+
+    {% if recipe.image_filename %}
+    <div class="section-title">Image:</div>
+    <div class="content">
+        <img src="{{ url_for('static', filename='uploads/' + recipe.image_filename) }}" alt="Recipe Image">
+    </div>
+    {% endif %}
+</body>
+</html>

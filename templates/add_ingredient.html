@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Add Ingredient to Shopping List
+{% endblock %}
+
+{% block content %}
+    <h2 class="text-center my-4">Add Ingredient</h2>
+    <form method="POST" action="{{ url_for('add_ingredient') }}">
+        <div class="mb-3">
+            <label for="name" class="form-label">Ingredient Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Ingredient</button>
+    </form>
+{% endblock %}
