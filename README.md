@@ -157,7 +157,7 @@ RecipeVault/
 ## Clone the repository
 
 ```bash
-git clone https://github.com/MadihaNalband/RecipeVault.git
+git clone https://github.com/MadihaNalband/recipevault-flask.git
 ```
 
 ```bash
