@@ -16,7 +16,7 @@ The application provides secure user authentication, personalized recipe collect
 
 Watch the project demonstration on YouTube:
 
-https://youtu.be/IUqcwyCLf-E?si=YHyvPaepn3qsQUhh
+https://youtu.be/tHYsTqTZOsc
 
 ---
 
