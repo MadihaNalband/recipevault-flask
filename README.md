@@ -14,7 +14,7 @@ The application provides secure user authentication, personalized recipe collect
 
 # 🎥 Project Demonstration
 
-Watch the complete project here:
+Watch the project demonstration on YouTube:
 
 https://youtu.be/IUqcwyCLf-E?si=YHyvPaepn3qsQUhh
 
@@ -132,10 +132,8 @@ https://youtu.be/IUqcwyCLf-E?si=YHyvPaepn3qsQUhh
 ```text
 RecipeVault/
 │
-├── _pycache_/
-├── instance/
 ├── migrations/
-|
+├── screenshots/
 ├── static/
 │   ├── css/
 │   ├── images/
@@ -147,7 +145,8 @@ RecipeVault/
 ├── app.py
 ├── alembic.ini
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -158,10 +157,7 @@ RecipeVault/
 
 ```bash
 git clone https://github.com/MadihaNalband/recipevault-flask.git
-```
-
-```bash
-cd RecipeVault
+cd recipevault-flask
 ```
 
 ## Install dependencies
@@ -244,7 +240,7 @@ Some features planned for future versions include:
 
 **Madiha Nalband**
 
-This project was developed as part of a CS50x certificate course to demonstrate full-stack web application development using Flask.
+Developed as part of the Harvard CS50x certificate course to demonstrate full-stack web application development using Flask.
 
 ---
 
