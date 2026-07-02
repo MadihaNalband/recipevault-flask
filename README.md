@@ -12,9 +12,11 @@ The application provides secure user authentication, personalized recipe collect
 
 ---
 
-## 🎥 Project Demonstration
+# 🎥 Project Demonstration
 
-[![Watch the Demo](screenshots/home.png)](https://youtu.be/IUqcwyCLf-E?si=YHyvPaepn3qsQUhh)
+Watch the project demonstration on YouTube:
+
+https://youtu.be/IUqcwyCLf-E?si=YHyvPaepn3qsQUhh
 
 ---
 
